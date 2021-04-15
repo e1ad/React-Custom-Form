@@ -3,9 +3,10 @@ import {useState} from "react";
 import {Form} from '../Form/Form';
 import {ERROR_CODE, INPUT_TYPE} from "../Form/Form.const";
 import {FromControl} from "../Form/FormControl/FormControl";
-import {RadioInput, FormInput} from "../Form/FormInput/FormInput";
+import {FormInput} from "../Form/FormInput/FormInput";
 import {FormButtons} from "../Form/FormButtons";
 import {FormErrors} from "../Form/FormErrors/FormErrors";
+import {RadioInput} from "../Form/FormInput/FormRadio/FormRadio";
 import {validators} from "../Form/FormUtils";
 
 

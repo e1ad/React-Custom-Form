@@ -14,18 +14,7 @@ const SimpleInput = ({type = "text", name, value, onChange}) => {
                   onChange={onChange}/>
 };
 
-
-export const RadioInput = ({label, value, name}) => {
-    return (
-        <div>
-            <label>{label}</label>
-            <input type="radio" value={value} name={name}/>
-        </div>
-    );
-};
-
 export const FormInput = ({type, name, value, validators, onChange, children}) => {
-
     const onInputChange = (event) => {
         event.target.validators = validators;
         onChange?.(event);
