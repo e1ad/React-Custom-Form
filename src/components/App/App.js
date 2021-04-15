@@ -12,23 +12,23 @@ import {validators} from "../Form/FormUtils";
 
 const countries = [
   {
-    label: 'Israel',
-    name: 'li'
+    label: "Israel",
+    name: "li"
   },
   {
-    label: 'Germany',
-    name: 'ge'
+    label: "Germany",
+    name: "ge"
   },
   {
-    label: 'United States',
-    name: 'us'
+    label: "United States",
+    name: "us"
   }
 ];
 
 const ERRORS_MESSAGE = {
-  [ERROR_CODE.REQUIRED]: 'Field Is Required',
-  [ERROR_CODE.MIN_LENGTH]: 'Min-Length is invalid',
-  [ERROR_CODE.MIN]: 'Min is invalid',
+  [ERROR_CODE.REQUIRED]: "Field Is Required",
+  [ERROR_CODE.MIN_LENGTH]: "Min-Length is invalid",
+  [ERROR_CODE.MIN]: "Min is invalid",
 }
 
 function App() {
@@ -42,7 +42,7 @@ function App() {
   };
 
   const onSubmit =  () => {
-    console.log('on Save', values);
+    console.log("on Save", values);
   }
 
   return (

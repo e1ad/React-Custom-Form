@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 import {INPUT_TYPE} from "../Form.const";
 import {FormSelect} from "./FormSelect/FormSelect";
 import "./FormInput.scss";
 
 const getValue = (value)=>{
-    return value || '';
+    return value || "";
 };
 
 const SimpleInput = ({type = "text", name, value, onChange}) => {

@@ -1,4 +1,4 @@
-import './Form.scss';
+import "./Form.scss";
 import * as _ from "lodash";
 import {getValueByType} from "./FormUtils";
 
@@ -29,7 +29,7 @@ export const Form = ({children, onChange}) => {
 
     return (
         <form onChange={onFormChange}
-              className='custom-form'>
+              className="custom-form">
             {children}
         </form>
     );
